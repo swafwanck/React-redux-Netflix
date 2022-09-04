@@ -2,7 +2,7 @@
   "name": "netflix-app",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage": "https://swafwanck.github.io/React-redux-Netflix/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",
@@ -25,8 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
