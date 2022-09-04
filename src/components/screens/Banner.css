@@ -1,0 +1,67 @@
+.banner{
+    position: relative;
+    color:white;
+    display:flex;
+    align-items: center; 
+    height: 458px;
+    margin-bottom: 30px;
+    width: 100%;
+    object-fit:cover;
+    
+} 
+.banner img{
+  object-fit:cover;
+  width: 100%; 
+  height:100%;
+  display: block;
+  
+  
+}
+.banner .banner-container{
+    position:absolute;
+    left: 30px;
+}
+.banner .banner-container .banner-contents{
+    margin-left: 50px;
+
+}
+.banner .banner-container .banner-contents h1{
+   font-size:2.5rem;
+   font-weight: 700; 
+   padding-bottom: 1rem;
+   text-transform: capitalize;
+   margin-left: 15px;
+}
+.banner .banner-container .banner-contents h2{
+    line-height :20px;;
+    padding-top:1rem;
+    font-size:19px;
+    max-width:360px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.banner .banner-container .banner-contents .banner_buttons .banner_button{
+cursor: pointer;
+color:#fff;
+outline:none;
+border:none;
+font-weight: 800;
+border-radius: 10px;
+padding-left: 2rem;
+padding-right: 2rem;
+margin-right: 1rem;
+padding-top:0.5rem;
+background-color:rgb(51,51,51,0.5);
+padding-bottom: 0.5rem;
+text-transform: capitalize;
+font-size:20px;
+}
+.banner .banner-container .banner-contents .banner_buttons {
+    margin-left: 10px;
+}
+.banner .banner-container .banner-contents .banner_buttons .banner_button:hover{
+ color:#000;
+ background-color:#e6e6e6;
+ transition: all 0.7s ease-in-out;
+}

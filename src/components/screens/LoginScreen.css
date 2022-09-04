@@ -1,0 +1,107 @@
+.loginScreen{
+    position: relative;
+    height:100%;
+    background:url('../screens/assets/images/background.jpg') center no-repeat; 
+    background-size: cover;
+    
+}
+.loginScreen .navbar h1{
+    width:253px;
+    height:139px;
+    position:fixed;
+    left:0;
+    top:-28px;
+
+}
+.loginScreen .navbar h1 img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.loginScreen .navbar .btn{
+    position: fixed;
+     right: 55px;
+     top:20px;
+     background-color: rgb(248, 4, 4);
+     border: none;
+     font-size:20px;
+     font-weight: 700;
+     color:#ffffff;
+     padding:8px 24px;
+     cursor: pointer;
+     border-radius:10px;
+     text-transform: capitalize;
+
+}
+.loginScreen .navbar .login_gredient{
+    width:100%;
+    height:100vh;
+    z-index: 1;
+    background:rgba(0,0,0,0.4);
+    background-image:linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+}
+.loginScreen .login_body{
+    position:absolute;
+   top:24%;
+   left:0;
+   right: 0;
+   z-index: 1; 
+   color:#fff;
+   padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   width: 50%;
+}
+.loginScreen .login_body h2{
+    font-size:2.89rem;
+    margin-bottom:20px;
+    text-align: center;
+    
+}
+.loginScreen .login_body h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.loginScreen .login_body h5{
+    font-size: 1rem;
+    text-align: center;
+}
+.loginScreen .login_body .login_head .login_input{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+  margin-top: 20px;
+  
+}
+.loginScreen .login_body .login_head .login_input form input{
+    padding: 10px;
+   outline-width: 0;
+   height: 24px;
+   width:450px;
+   border:none;
+   border-radius: 5px;
+   
+}
+.login_body .login_head .login_input form .login_button{
+    background-color: #e50914;
+    color:#fff;
+    padding: 9px;
+    width:150px;
+    font-size: 19px;
+    border: none;
+    font-weight: 600;
+    border-radius:5px;
+    padding-bottom: 13px;
+    margin-left: -10px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.loginScreen .login_body .login_head .login_input form input::placeholder{
+    color:#434342;
+    font-size: 17px;
+}
